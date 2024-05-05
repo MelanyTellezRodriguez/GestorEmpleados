@@ -24,6 +24,10 @@ namespace GestorEmpleados
 
         }
 
+        public Empleado()
+        {
+        }
+
         //Metodo para mostrar los detalles del empleado
         public void MostrarDetalles()
         {
@@ -55,6 +59,41 @@ namespace GestorEmpleados
             else
             {
                 Console.WriteLine("Estado no valido.");
+            }
+        }
+
+        //Metodo para aumentarle el salario al empleado considerando su numero de empleado
+        public void AumentarSalario()
+        {
+            Console.WriteLine();
+            Console.WriteLine("---------------------------------------------------------");
+            Console.WriteLine("***El porcentaje que se le aumentara al empleado sera del 10%***");
+            Console.WriteLine();
+            Console.WriteLine("Ingrese el numero de empleado:");
+            int NumeroEmpleado = Convert.ToInt32(Console.ReadLine());
+
+            if(NumeroEmpleado == 101)
+            {
+                double aumento = 30000 * 0.1;
+                double resultadoFinal = 30000 + aumento;
+                Console.WriteLine($"El salario del empleado luego del aumento es de {resultadoFinal}");
+            }
+            else if(NumeroEmpleado == 102)
+            {
+                double aumento = 35000 * 0.1;
+                double resultadoFinal = 35000 + aumento;
+                Console.WriteLine($"El salario del empleado luego del aumento es de {resultadoFinal}");
+
+            }
+            else if(NumeroEmpleado == 103)
+            {
+                double aumento = 32000 * 0.1;
+                double resultadoFinal = 32000 + aumento;
+                Console.WriteLine($"El salario del empleado luego del aumento es de {resultadoFinal}");
+            }
+            else
+            {
+                Console.WriteLine("¡ERROR! el numero de empleado que ha ingresado no se encuentra en el sistema");
             }
         }
     }

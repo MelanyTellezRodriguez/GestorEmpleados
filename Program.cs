@@ -44,6 +44,9 @@ namespace GestorEmpleados
                 Console.WriteLine($"Empleado con numero {numeroEmpleadoCambiarEstado} no encontrado.");
             }
 
+            Empleado SalarioNuevo = new Empleado();
+            SalarioNuevo.AumentarSalario();
+
 
 
         }

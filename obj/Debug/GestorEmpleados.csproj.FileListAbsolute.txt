@@ -1,0 +1,7 @@
+C:\Users\melany Tellez\OneDrive\Escritorio\GestorEmpleados\bin\Debug\GestorEmpleados.exe.config
+C:\Users\melany Tellez\OneDrive\Escritorio\GestorEmpleados\bin\Debug\GestorEmpleados.exe
+C:\Users\melany Tellez\OneDrive\Escritorio\GestorEmpleados\bin\Debug\GestorEmpleados.pdb
+C:\Users\melany Tellez\OneDrive\Escritorio\GestorEmpleados\obj\Debug\GestorEmpleados.csproj.AssemblyReference.cache
+C:\Users\melany Tellez\OneDrive\Escritorio\GestorEmpleados\obj\Debug\GestorEmpleados.csproj.CoreCompileInputs.cache
+C:\Users\melany Tellez\OneDrive\Escritorio\GestorEmpleados\obj\Debug\GestorEmpleados.exe
+C:\Users\melany Tellez\OneDrive\Escritorio\GestorEmpleados\obj\Debug\GestorEmpleados.pdb
